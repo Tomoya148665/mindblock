@@ -1,0 +1,70 @@
+.background {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/desktop--3@3x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  @media (max-width: 1280px) {
+    .background {
+      /* 大きなデスクトップ画面用の背景画像 */
+      background-image: url('/desktop--3@3x.png');
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .background {
+      /* タブレット用の背景画像 */
+      background-image: url('/tablet-image@3x.png');
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .background {
+      /* スマホ用の背景画像 */
+      background-image: url('/mobile-image@3x.png');
+    }
+  }
+
+
+.mindText {
+    position: relative;
+    font-size: 180px; /* デフォルトのフォントサイズ */
+    /* その他のスタイル... */
+  }
+  
+  /* 画面幅が600px以下の場合に適用されるスタイル */
+  @media (max-width: 600px) {
+    .mindText {
+      font-size: 130px;
+    }
+  }
+  
+  /* 画面幅が600pxより大きい場合に適用されるスタイル */
+  @media (min-width: 601px) {
+    .mindText {
+      font-size: 180px;
+    }
+  }
+
+
+.fullHeightContainer {
+    display: flex;
+    flex-direction: column;    min-height: 100vh;
+  }
+  
+.footerText {
+    position: absolute; /* 絶対位置指定を追加 */
+    bottom: 0; /* 下端に配置 */
+    left: 0; /* 左端に配置 */
+    right: 0; /* 右端に配置 */
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    padding-bottom: 30px; /* 下端からのスペース */
+  }
+  
+  

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Pistilli Pro";
+  src: url("/public/PistilliPro-Black.otf");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Hiragino Kaku Gothic StdN";
+  src: url("/public/ヒラギノ角ゴ StdN W4.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "A P-OTF SuiryuNeoroman StdN";
+  src: url("/public/AP-OTF-SuiryuNeoromanStdN-U.otf");
+  font-weight: 400;
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
