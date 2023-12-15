@@ -18,7 +18,7 @@ const Firstpage: React.FC<FirstpageProps> = ({
     >
       <div className="relative">
         <picture>
-          <source media="(min-width: 1025px)" srcset="/desktop.png" />
+          <source media="(min-width: 1025px)" srcSet="/desktop.png" />
           <img
             src="/mobile.png"
             alt="Description of the image"
