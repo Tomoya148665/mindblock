@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../pages/styles.module.css";
 
 interface DescriptionProps {
-  description1?: string;
+  description1?: React.ReactNode;
   description2?: string;
   title: string;
 }
