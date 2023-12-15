@@ -5,7 +5,7 @@ interface FinalpageProps {
   description: string;
 }
 
-const Finalpage: React.FC = ({ description }) => {
+const Finalpage: React.FC<FinalpageProps> = ({ description }) => {
   return (
     <div
       className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}

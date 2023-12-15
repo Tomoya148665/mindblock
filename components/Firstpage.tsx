@@ -7,7 +7,11 @@ interface FirstpageProps {
   conciousness: string;
 }
 
-const Firstpage: React.FC = ({ name, consicousnessLevel, conciousness }) => {
+const Firstpage: React.FC<FirstpageProps> = ({
+  name,
+  consicousnessLevel,
+  conciousness,
+}) => {
   return (
     <div
       className={` ${styles.fullHeightContainer} relative w-full  mx-auto overflow-hidden flex items-center justify-start py-0 box-border  text-center text-lightskyblue px-[10px] `}
