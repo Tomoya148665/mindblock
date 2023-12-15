@@ -5,35 +5,48 @@
 }
 @font-face {
   font-family: "Hiragino Kaku Gothic StdN";
-  src: url("/public/ヒラギノ角ゴ StdN W4.otf");
+  src: url("../public/ヒラギノ角ゴ StdN W4.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "ReimPr6N Bold";
-  src: url("/public/public/AP-OTF-ReimPr6N-Bold.otf");
+  src: url("../public/AP-OTF-ReimPr6N-Bold.otf");
   font-weight: 400;
 }@font-face {
   font-family: "ReimPr6N ExBold";
-  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-ExBold.otf");
+  src: url("../public/AP-OTF-ReimPr6N-ExBold.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "ReimPr6N ExHeavy";
-  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-ExHeavy.otf");
+  src: url("../public/AP-OTF-ReimPr6N-ExHeavy.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "ReimPr6N Heavy";
-  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-Heavy.otf");
+  src: url("../public/AP-OTF-ReimPr6N-Heavy.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "ReimPr6N Light";
-  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-Light.otf");
+  src: url("../public/AP-OTF-ReimPr6N-Light.otf");
   font-weight: 400;
 }
-
-
+@font-face {
+  font-family: "ReimPr6N Medium";
+  src: url(../public/AP-OTF-ReimPr6N-Medium.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ReimPr6N Regular";
+  src: url(../public/AP-OTF-ReimPr6N-Regular.otf);
+  font-weight: 400;
+}
+@font-face{
+  font-family: "RemiPr6N Ultra";
+  src: url(../public/AP-OTF-ReimPr6N-Ultra.otf);
+  font-weight: 400;
+}
 
 
 

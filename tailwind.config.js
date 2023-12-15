@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundPosition: {
+        "center-top": "50% 0",
+      },
       colors: {
         lightskyblue: "#83ccff",
         black: "#000",
@@ -21,6 +24,9 @@ module.exports = {
         "remipr6n-exbold": "'ReimPr6N ExBold'",
         "remipr6n-exheavy": "'ReimPr6N Heavy'",
         "remipr6n-light": "'ReimPr6N Light'",
+        "remipr6n-medium": "'ReimPr6N Medium'",
+        "remipr6n-regular": "'ReimPr6N Regular'",
+        "remipr6n-ultra": "'ReimPr6N Ultra'",
       },
     },
     fontSize: {
