@@ -2,8 +2,8 @@ import React from "react";
 import styles from "../pages/styles.module.css";
 
 interface DescriptionProps {
-  description1: string;
-  description2: string;
+  description1?: string;
+  description2?: string;
   title: string;
 }
 
