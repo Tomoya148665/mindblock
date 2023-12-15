@@ -92,18 +92,17 @@ const Desktop3: NextPage = () => {
         <div
           className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
         >
-          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  mt-20 px-[0px] lg:px-[80px] ">
+          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  mt-10 mb-10 px-[0px] lg:px-[80px] ">
             <div
-              className={` flex-1 flex flex-col items-center justify-start gap-[40px] min-h-[800px] max-w-[fit-content] ${styles.relativeFontSize5}`}
+              className={` flex-1 flex flex-col items-center justify-start gap-[30px] min-h-[800px] max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}`}
             >
               <div
-                className={`${styles.verticalText} self-stretch  relative max-h-[400px] `}
+                className={`${styles.verticalText} self-stretch  relative max-h-[380px] `}
               >
-                「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
                 「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
               </div>
               <div
-                className={`${styles.verticalText} self-stretch  relative max-h-[400px] `}
+                className={`${styles.verticalText} self-stretch  relative max-h-[380px] `}
               >
                 「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
               </div>
@@ -120,18 +119,18 @@ const Desktop3: NextPage = () => {
           className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
         >
           {" "}
-          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  mt-20 px-[0px] lg:px-[80px] ">
+          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  my-10 px-[0px] lg:px-[80px] ">
             <div
-              className={`flex-1 flex flex-col items-center justify-start gap-[40px] min-h-[800px] max-w-[fit-content] ${styles.relativeFontSize5}
+              className={`flex-1 flex flex-col items-center justify-start gap-[30px] min-h-[800px] max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}
           `}
             >
               <div
-                className={`${styles.verticalText} self-stretch  relative max-h-[400px] `}
+                className={`${styles.verticalText} self-stretch  relative max-h-[380px] `}
               >
                 「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
               </div>
               <div
-                className={`${styles.verticalText} self-stretch  relative max-h-[400px] `}
+                className={`${styles.verticalText} self-stretch  relative max-h-[380px] `}
               >
                 「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
               </div>
@@ -148,18 +147,18 @@ const Desktop3: NextPage = () => {
           className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
         >
           {" "}
-          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  mt-20 px-[0px] lg:px-[80px] ">
+          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  my-10 px-[0px] lg:px-[80px] ">
             <div
-              className={` flex-1 flex flex-col items-center justify-start gap-[40px] min-h-[800px] max-w-[fit-content] ${styles.relativeFontSize5}
+              className={` flex-1 flex flex-col items-center justify-start gap-[30px] min-h-[800px] max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}
           `}
             >
               <div
-                className={`${styles.verticalText} self-stretch  relative max-h-[400px] `}
+                className={`${styles.verticalText} self-stretch  relative max-h-[380px] `}
               >
                 「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
               </div>
               <div
-                className={`${styles.verticalText} self-stretch  relative max-h-[400px] `}
+                className={`${styles.verticalText} self-stretch  relative max-h-[380px] `}
               >
                 「自分がやりきれば必ずうまくいく」という念は全てを自己責任で解決しようとするパターンです。これは厳しい父親や常識的で保守的な母親の影響かもしれません。また、必ず成功しなければならないというプレッシャーを背負っており、自己に対する過剰な期待や理想を持っている可能性があります。この念が原因で状況が予期しない方向に進んだ時、不必要なストレスや焦りを感じてしまうかもしれません。成功が自分のコントロールだけで決まるわけではないので柔軟性を持ち、他者と協力することの大切さを学ぶべきです。
               </div>
@@ -176,9 +175,9 @@ const Desktop3: NextPage = () => {
           className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
         >
           {" "}
-          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  mt-20 px-[0px] lg:px-[80px] ">
+          <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  my-10 px-[0px] lg:px-[80px] ">
             <div
-              className={`flex-1 flex flex-col items-center justify-start gap-[40px]  max-w-[fit-content] ${styles.relativeFontSize5}
+              className={`flex-1 flex flex-col items-center justify-start gap-[40px]  max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}
           `}
             >
               <div
@@ -194,7 +193,7 @@ const Desktop3: NextPage = () => {
             </div>
           </div>
           <img
-            className="relative w-[482px] h-[400px] object-cover"
+            className="relative w-[482px] h-[400px] object-cover object-top"
             alt=""
             src="/image (19).png"
           />
