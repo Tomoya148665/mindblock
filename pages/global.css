@@ -9,10 +9,30 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: "A P-OTF SuiryuNeoroman StdN";
-  src: url("/public/AP-OTF-SuiryuNeoromanStdN-U.otf");
+  font-family: "ReimPr6N Bold";
+  src: url("/public/public/AP-OTF-ReimPr6N-Bold.otf");
+  font-weight: 400;
+}@font-face {
+  font-family: "ReimPr6N ExBold";
+  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-ExBold.otf");
   font-weight: 400;
 }
+@font-face {
+  font-family: "ReimPr6N ExHeavy";
+  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-ExHeavy.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ReimPr6N Heavy";
+  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-Heavy.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ReimPr6N Light";
+  src: url("/public/AP-OTF-public/AP-OTF-ReimPr6N-Light.otf");
+  font-weight: 400;
+}
+
 
 
 

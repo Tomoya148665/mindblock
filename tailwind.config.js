@@ -9,12 +9,18 @@ module.exports = {
       colors: {
         lightskyblue: "#83ccff",
         black: "#000",
+        gainsboro: "#d9d9d9",
+        darkslategray: "#4b4b4b",
       },
       spacing: {},
       fontFamily: {
         "a-p-otf-suiryuneoroman-stdn": "'A P-OTF SuiryuNeoroman StdN'",
         "hiragino-kaku-gothic-stdn": "'Hiragino Kaku Gothic StdN'",
         "pistilli-pro": "'Pistilli Pro'",
+        "remipr6n-bold": "'ReimPr6N Bold'",
+        "remipr6n-exbold": "'ReimPr6N ExBold'",
+        "remipr6n-exheavy": "'ReimPr6N Heavy'",
+        "remipr6n-light": "'ReimPr6N Light'",
       },
     },
     fontSize: {
@@ -29,7 +35,7 @@ module.exports = {
       lg: "1200px",
       md: "960px",
       sm: "600px",
-      xs: "420px",
+      xs: "500px",
     },
   },
   corePlugins: {

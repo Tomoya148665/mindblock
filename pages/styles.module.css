@@ -1,6 +1,33 @@
 .background {
     /* 初期のデスクトップ用の背景画像 */
-    background-image: url('/desktop--3@3x.png');
+    background-image: url('/tablet-image@3x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height:100vh;
+    position:relative;
+  }
+
+  .background {
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+}
+
+ 
+.background2 {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/desktop-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .background3 {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/desktop-3.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -8,24 +35,37 @@
     width: 100%;
   }
   
-  @media (max-width: 1280px) {
-    .background {
-      /* 大きなデスクトップ画面用の背景画像 */
-      background-image: url('/desktop--3@3x.png');
-    }
+  .background4 {
+    /* 初期のデスクトップ用の背景画像 */
+    background-image: url('/desktop-4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
   }
-  
-  @media (max-width: 1024px) {
-    .background {
-      /* タブレット用の背景画像 */
-      background-image: url('/tablet-image@3x.png');
-    }
-  }
+
+
   
   @media (max-width: 600px) {
-    .background {
+    .background2 {
       /* スマホ用の背景画像 */
-      background-image: url('/mobile-image@3x.png');
+      background-image: url('/mobile-2.png');
+    }
+  }
+
+  @media (max-width: 600px) {
+    .background3 {
+      /* スマホ用の背景画像 */
+      background-image: url('/mobile-3.png');
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .background4 {
+      /* スマホ用の背景画像 */
+      background-image: url('/mobile-4.png');
     }
   }
 
@@ -53,7 +93,8 @@
 
 .fullHeightContainer {
     display: flex;
-    flex-direction: column;    min-height: 100vh;
+    flex-direction: column;    
+    width:auto;
   }
   
 .footerText {
@@ -67,4 +108,18 @@
     padding-bottom: 30px; /* 下端からのスペース */
   }
   
-  
+.container{
+  width:80%;
+  margin:auto;
+  border:solid purple 10px;
+}
+
+.container img{
+  width: 100%;
+}
+
+
+.verticalText {
+  writing-mode: vertical-rl; /* Sets text to vertical */
+  text-orientation: upright; /* Keeps characters upright, not sideways */
+}
