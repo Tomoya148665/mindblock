@@ -22,7 +22,7 @@ const Firstpage: React.FC<FirstpageProps> = ({
       >
         <div className="relative">
           <img
-            src="/mobile111.png"
+            src="/mobile12.png"
             alt="Description of the image"
             className="block w-full object-contain relative lg:h-screen"
           />
