@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      inset: {
+        "1/2": "50%",
+        "1/3": "30%",
+      },
       backgroundPosition: {
         "center-top": "50% 0",
       },
@@ -38,7 +42,7 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
-      lg: "1200px",
+      lg: "1025px",
       md: "960px",
       sm: "600px",
       xs: "500px",

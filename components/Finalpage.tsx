@@ -8,12 +8,11 @@ interface FinalpageProps {
 const Finalpage: React.FC<FinalpageProps> = ({ description }) => {
   return (
     <div
-      className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
+      className={`${styles.background2} self-stretch flex-auto  flex flex-col items-center justify-center gap-[10px] `}
     >
-      {" "}
-      <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  my-10 px-[0px] lg:px-[80px] ">
+      <div className="self-stretch flex-1 flex flex-row items-center h-full justify-center gap-[10px]  my-10 px-[0px] lg:px-[80px] ">
         <div
-          className={`flex-1 flex flex-col items-center justify-start gap-[40px]  max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}
+          className={`flex-1 flex flex-col items-center justify-start max-h-full gap-[40px]  max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}
           `}
         >
           <div
@@ -23,10 +22,15 @@ const Finalpage: React.FC<FinalpageProps> = ({ description }) => {
           </div>
         </div>
       </div>
-      <img
-        className="relative w-[482px] h-[400px] object-cover object-top"
-        alt=""
-        src="/image (19).png"
+
+      <div
+        className="relative h-[500px] w-[372px] object-cover"
+        style={{
+          backgroundImage: "url('/image (19).png')",
+          backgroundPosition: "top",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "contain",
+        }}
       />
     </div>
   );
