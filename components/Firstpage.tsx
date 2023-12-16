@@ -14,7 +14,7 @@ const Firstpage: React.FC<FirstpageProps> = ({
 }) => {
   return (
     <div
-      className={` ${styles.fullHeightContainer} relative w-full  mx-auto overflow-hidden flex items-center  justify-start py-0 box-border  text-center text-lightskyblue  `}
+      className={` ${styles.fullHeightContainer} relative w-full  mx-auto overflow-hidden flex items-center  justify-start  box-border  text-center text-lightskyblue  `}
     >
       <div className="relative">
         <img
