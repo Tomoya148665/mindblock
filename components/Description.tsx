@@ -5,17 +5,20 @@ interface DescriptionProps {
   description1?: React.ReactNode;
   description2?: string;
   title: string;
+  number: number;
 }
 
 const Description: React.FC<DescriptionProps> = ({
   description1,
   description2,
   title,
+  number,
 }) => {
   return (
     <div
-      className={`${styles.background2} self-stretch flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
+      className={`${styles.background2} self-stretch relative flex-auto overflow-hidden flex flex-col items-center justify-center gap-[10px] `}
     >
+      <div className="absolute bottom-3 left-3 text-[20px]">{number}</div>
       <div className="self-stretch flex-1 flex flex-row items-center justify-center gap-[10px]  mt-10 mb-10 px-[0px] lg:px-[80px] h-full ">
         <div
           className={` flex-1 flex flex-col items-center justify-start gap-[30px] max-h-full max-w-[fit-content] leading-tight font-remipr6n-medium ${styles.relativeFontSize5}`}

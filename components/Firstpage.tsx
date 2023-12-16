@@ -29,18 +29,18 @@ const Firstpage: React.FC<FirstpageProps> = ({
         <div
           className={`self-stretch flex flex-col items-start justify-center ${styles.gapVw} text-left text-base font-hiragino-kaku-gothic-stdn`}
         >
-          <div className="w-full flex flex-col items-start justify-start gap-[10px] ">
+          <div className="w-full flex flex-col items-start justify-start gap-[2px] ">
             <div className={`self-stretch relative ${styles.relativeFontSize}`}>
               あなたのマインドブロックは？
             </div>
             <div
-              className={`self-stretch relative ${styles.relativeFontSize1} ${styles.leadingVw} ${styles.maxWidthVw2} text-black `}
+              className={`self-stretch relative ${styles.relativeFontSize1} ${styles.leadingVw2} ${styles.maxWidthVw2} text-black `}
             >
               {name}
             </div>{" "}
           </div>
           <div
-            className={`w-full flex flex-col items-start justify-start gap-[10px] `}
+            className={`w-full flex flex-col items-start justify-start gap-[2px] `}
           >
             <div
               className={`self-stretch relative ${styles.relativeFontSize} `}

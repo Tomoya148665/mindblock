@@ -137,11 +137,11 @@
 }
 
 .relativeFontSize1 {
-  font-size: 3vw;
+  font-size: 3.8vw;
 }
 
 .relativeFontSize3 {
-  font-size: 2.5vw;
+  font-size: 2.3vw;
 }
 
 @media (min-width: 1025px) {
@@ -179,13 +179,17 @@
 }
 
 .maxWidthVw2 {
-  max-width: 30vw;
+  max-width: 45vw;
 } 
 
 .leadingVw {
-  line-height: 3vw;
+  line-height: 3.3vw;
+}
+
+.leadingVw2 {
+  line-height: 4.5vw;
 }
 
 .gapVw {
-  gap: 5vw;
+  gap: 7vw;
 }
