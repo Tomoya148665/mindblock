@@ -5,7 +5,7 @@ interface DescriptionProps {
   description1?: React.ReactNode;
   description2?: string;
   title: string;
-  number: number;
+  number: string;
 }
 
 const Description: React.FC<DescriptionProps> = ({
