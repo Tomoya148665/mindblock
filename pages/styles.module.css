@@ -144,7 +144,7 @@
 }
 
 .relativeFontSize5 {
-  font-size: max(min(2.5vw, 18px), 14px);
+  font-size: max(min(2.5vw, 18px), 13px);
 }
 
 .maxWidthVw {

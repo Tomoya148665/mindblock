@@ -27,7 +27,7 @@ const Firstpage: React.FC<FirstpageProps> = ({
             className="block w-full object-contain relative lg:h-screen"
           />
           <div
-            className={`absolute   ${styles.left20} ${styles.top30} self-stretch flex flex-col items-center justify-center`}
+            className={`absolute  ${styles.left20} ${styles.top30} self-stretch flex flex-col items-center justify-center`}
           >
             <div
               className={`self-stretch flex flex-col items-start justify-center ${styles.gapVw} text-left text-base font-hiragino-kaku-gothic-stdn`}

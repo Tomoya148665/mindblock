@@ -14,7 +14,7 @@ const Secondpage: React.FC<SecondpageProps> = ({ description, name }) => {
       >
         <div className="absolute bottom-3 left-3 text-[20px]">01</div>
         <div
-          className={`self-stretch flex-1 flex flex-row items-start justify-center gap-[10px] max-h-[400px] py-[20px] px-[10px] lg:px-[80px] ${styles.relativeFontSize}5`}
+          className={`self-stretch flex-1 flex flex-row items-start justify-center gap-[0px] max-h-[400px] py-[20px] px-[10px] lg:px-[80px] ${styles.relativeFontSize5}`}
         >
           <div
             className={`${styles.verticalText} self-stretch inline-flex relative vertical-rl  max-w-[fit-content] leading-tight font-remipr6n-medium`}
